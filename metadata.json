@@ -1,0 +1,7 @@
+{
+  "name": "English Speaking Exam Portal",
+  "description": "A platform for students to record speaking exams and teachers to grade them.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
