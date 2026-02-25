@@ -1,0 +1,26 @@
+.glass {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #f1f5f9;
+}
+
+.invert audio::-webkit-media-controls-panel {
+    background-color: #1e293b;
+    filter: invert(0);
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #4f46e5;
+    cursor: pointer;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.5);
+}

@@ -4,11 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "tsx server.ts",
-    "build": "vite build",
-    "preview": "vite preview",
-    "clean": "rm -rf dist",
-    "lint": "tsc --noEmit"
+    "dev": "npx serve .",
+    "build": "echo 'Static site, no build needed'",
+    "preview": "npx serve .",
+    "lint": "echo 'No linting needed'"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",

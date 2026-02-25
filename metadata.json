@@ -1,6 +1,6 @@
 {
-  "name": "English Speaking Exam Portal",
-  "description": "A platform for students to record speaking exams and teachers to grade them.",
+  "name": "English Speaking Exam (Static)",
+  "description": "A static version of the English Speaking Exam portal using LocalStorage.",
   "requestFramePermissions": [
     "microphone"
   ]
